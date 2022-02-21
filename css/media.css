@@ -1,0 +1,257 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /* Header start */
+  .logo {
+    width: 160px;
+    height: 50px;
+  }
+  .mainmenu ul li {
+    margin: 10px 0 0;
+  }
+  .mainmenu ul li a {
+    /* padding: 8px 16px; */
+    text-align: end;
+  }
+  .sign_in_btn {
+    margin-top: 20px;
+    text-align: end;
+  }
+
+  /* Banner start */
+  .banner {
+    padding: 50px 0;
+  }
+  .banner_text {
+    margin-top: 40px;
+  }
+  .banner_text h2 {
+    margin-bottom: 10px;
+  }
+  .banner_text h1 {
+    width: unset;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .banner_text p {
+    line-height: 25px;
+  }
+
+  /* About Us */
+  .aboutus {
+    padding: 40px 0;
+  }
+
+  /* Courses start */
+  .courses {
+    padding: 40px 0;
+  }
+  .course_head h1 {
+    font-size: 30px;
+  }
+  .course_details {
+    margin-top: 30px;
+  }
+  .seats {
+    margin-top: 10px;
+    float: left;
+  }
+
+  /* Testimonial start */
+  .testimonial {
+    padding: 40px 0;
+  }
+  .testimonial_content {
+    margin-top: 50px;
+  }
+  .testi_user_info {
+    margin: 0 auto 20px;
+  }
+  .testi_user_info img {
+    width: 120px;
+  }
+  .testi_user_text {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Footer start */
+  footer {
+    padding: 40px 0 30px;
+  }
+  .ft_text,
+  .ft_menu {
+    margin-top: 40px;
+  }
+  .copyright_text p {
+    margin: 40px 0 0;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header start */
+  .logo {
+    width: 160px;
+    height: 50px;
+  }
+  .mainmenu ul li {
+    margin: 10px 0 0;
+  }
+  .mainmenu ul li a {
+    /* padding: 8px 16px; */
+    text-align: end;
+  }
+  .sign_in_btn {
+    margin-top: 20px;
+    text-align: end;
+  }
+
+  /* Banner start */
+  .banner {
+    padding: 50px 0;
+  }
+  .banner_text {
+    margin-top: 40px;
+  }
+  .banner_text h2 {
+    margin-bottom: 0;
+  }
+  .banner_text h1 {
+    width: unset;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .banner_text p {
+    line-height: 25px;
+  }
+
+  /* About Us */
+  .aboutus {
+    padding: 50px 0;
+  }
+
+  /* Courses start */
+  .courses {
+    padding: 50px 0;
+  }
+  .course_head h1 {
+    font-size: 32px;
+  }
+  .course_details {
+    margin-top: 30px;
+  }
+  .seats {
+    margin-top: 10px;
+    float: left;
+  }
+
+  /* Testimonial start */
+  .testimonial {
+    padding: 50px 0;
+  }
+  .testimonial_content {
+    margin-top: 50px;
+  }
+  .testi_user_info {
+    margin: 0 auto 20px;
+  }
+  .testi_user_info img {
+    width: 120px;
+  }
+  .testi_user_text {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* Footer start */
+  footer {
+    padding: 50px 0 30px;
+  }
+  .ft_menu {
+    margin-top: 40px;
+  }
+  .copyright_text p {
+    margin: 40px 0 0;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header start */
+  .logo {
+    width: 160px;
+    height: 50px;
+  }
+  .mainmenu ul li {
+    margin: 12px 0 0;
+  }
+  .mainmenu ul li a {
+    /* padding: 8px 16px; */
+    text-align: end;
+  }
+  .sign_in_btn {
+    margin-top: 20px;
+    text-align: end;
+  }
+
+  /* Banner start */
+  .banner {
+    padding: 70px 0;
+  }
+  .banner_text h1 {
+    width: unset;
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .banner_text p {
+    line-height: 25px;
+  }
+  .banner_img {
+    margin-top: 40px;
+  }
+
+  /* About Us */
+  .aboutus {
+    padding: 60px 0;
+  }
+
+  /* Courses start */
+  .courses {
+    padding: 60px 0;
+  }
+  .seats {
+    margin-top: 10px;
+    float: left;
+  }
+
+  /* Testimonial Start */
+  .testimonial {
+    padding: 60px 0;
+  }
+
+  /* Footer start */
+  footer {
+    padding: 60px 0 30px;
+  }
+  .copyright_text p {
+    margin: 50px 0 0;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /**/
+}
+
+/*Extra Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /**/
+}
+
+/*Extra Extra large devices (extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  /**/
+}
